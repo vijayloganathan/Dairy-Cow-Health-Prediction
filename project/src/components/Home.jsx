@@ -11,6 +11,7 @@ import Todaycollection from "./Todaycollection";
 import PaymentReport from "./PaymentReport";
 import Healthreportform from "./Healthreportform";
 import Healthreport from "./Healthreport";
+import axios from "axios";
 
 export default function Home() {
   return (
