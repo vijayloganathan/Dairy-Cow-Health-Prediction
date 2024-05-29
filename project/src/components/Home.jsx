@@ -1,16 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Sidenav from "./Sidenav";
+import Navbar from "./Navbar.jsx";
+import Sidenav from "./Sidenav.jsx";
 import cowimg from "../assets/image/cowlogo.png";
-import Society_Details from "./Society_Details";
+import Society_Details from "./Society_Details.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CollectionDateShift from "./CollectionDateShift";
-import MemberlistForm from "./MemberlistForm";
-import Milkcollection from "./Milkcollection";
-import Todaycollection from "./Todaycollection";
-import PaymentReport from "./PaymentReport";
-import Healthreportform from "./Healthreportform";
-import Healthreport from "./Healthreport";
+import CollectionDateShift from "./CollectionDateShift.jsx";
+import MemberlistForm from "./MemberlistForm.jsx";
+import Milkcollection from "./Milkcollection.jsx";
+import Todaycollection from "./Todaycollection.jsx";
+import PaymentReport from "./PaymentReport.jsx";
+import Healthreportform from "./Healthreportform.jsx";
+import Healthreport from "./Healthreport.jsx";
 import axios from "axios";
 
 export default function Home() {
